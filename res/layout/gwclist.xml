@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+     android:background="#fff0f5">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1" >
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/TextView131"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="商品名"
+                android:textColor="#0000ff" />
+
+            <TextView
+                android:id="@+id/TextView132"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                 android:text="价格"
+                android:textColor="#0000ff" />
+            <TextView
+                android:id="@+id/TextView131"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="剩余数量"
+                android:textColor="#0000ff" />
+
+            <TextView
+                android:id="@+id/TextView132"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                 android:text="购买数量"
+                android:textColor="#0000ff" />
+        </TableRow>
+
+        <TableRow android:gravity="right" >
+        </TableRow>
+
+        <ListView
+           
+         
+            android:id="@+id/gwc_list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </TableLayout>
+
+</LinearLayout>

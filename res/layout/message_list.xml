@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout  
+  xmlns:android="http://schemas.android.com/apk/res/android"  
+  android:layout_width="match_parent"  
+  android:layout_height="match_parent">  
+    <ImageView android:id="@+id/ml_icon"  
+        android:layout_width="50dp"  
+        android:layout_height="58dp"  
+        android:src="@drawable/ml_default_image"  
+        />  
+   <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:descendantFocusability="blocksDescendants">
+	 
+	  <TextView
+	     android:id="@+id/listName"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="1"
+	     android:text="Name"
+	     android:layout_gravity="center"
+	     android:textSize="20dp"
+	     android:layout_marginLeft="10dp"/>
+	  <TextView
+	     android:id="@+id/listPrice"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="1"
+	     android:text="0.0"
+	     android:layout_gravity="center"
+	     android:textSize="20dp"/>
+	    <TextView
+	     android:id="@+id/listCount"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="1"
+	     android:text="0"
+	     android:layout_gravity="center"
+	     android:textSize="20dp"/>
+	    
+	     <CheckBox
+	     android:id="@+id/listSelect"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"/>
+  </LinearLayout>
+</LinearLayout>  

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1" >
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/TextView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="订单号"
+                android:textColor="#ff0000" />
+
+            <TextView
+                android:id="@+id/TextView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0000ff" />
+        </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/TextView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="送货电话"
+                android:textColor="#ff0000" />
+
+            <TextView
+                android:id="@+id/TextView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0000ff" />
+        </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/TextView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发货地址"
+                android:textColor="#ff0000" />
+
+            <TextView
+                android:id="@+id/TextView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0000ff" />
+        </TableRow>
+        
+            <TableRow >
+
+            <TextView
+                android:id="@+id/TextView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="消费金额"
+                android:textColor="#ff0000" />
+
+            <TextView
+                android:id="@+id/TextView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0000ff" />
+        </TableRow>
+        
+                 <TableRow>
+
+            <TextView
+                android:id="@+id/TextView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商品名"
+                android:textColor="#aaaa00" />
+
+            <TextView
+                android:id="@+id/TextView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:text="购买数量"
+                android:textColor="#aaaa00" />
+        </TableRow>
+                
+
+        <TableRow android:gravity="right" >
+        </TableRow>
+
+        <ListView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ddmore_list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+   android:background="#fff0f5"
+    >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1" >
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/TextView31111"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="订单号"
+                android:textColor="#0000ff" />
+
+            <TextView
+                android:id="@+id/TextView32222"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                 android:text="下单时间"
+                android:textColor="#0000ff" />
+        
+        </TableRow>
+
+        <TableRow android:gravity="right" >
+        </TableRow>
+
+        <ListView
+          
+            android:id="@+id/dd_list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </TableLayout>
+
+</LinearLayout>
